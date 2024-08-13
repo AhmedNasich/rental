@@ -1,0 +1,500 @@
+*{
+   text-align: none;
+   margin: 0px;
+   padding: 0px;
+   font-family: Arial;
+   font-style: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+.content3-hover {
+    text-decoration: none;
+    color: #181a1c;
+}
+
+.form-control {
+    padding: 10px;
+    box-sizing: border-box;
+    margin-right: -5px;
+    border: 1px solid #c9c9c9;
+}
+.btn-blue {
+    background: #6289c7;
+    color: #fff;
+    border: 1px solid #6289c7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.cart {
+    float: right;
+    margin: auto;
+    padding: 12px;
+}
+.logo {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    font-family: monospace;
+    color: #fdfcfd;
+    width: 10%;
+    padding-top: 7px;
+    margin-right: 20px;
+}
+.wrapper-menu{
+	background-color: #fff;
+	padding: 15px;
+	box-sizing: border-box;
+	position: fixed;
+    width: 100%;
+}
+.container-menu {
+	width: 80%;
+	margin: auto;
+    overflow: auto;
+}
+.menu-right {
+    float: right;
+    width: 20%;
+}
+.container-menu ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+.container-menu > ul > li {
+	float: left;
+}
+.container-menu li a {
+	display: inline-block;
+	color: #181a1c;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+.container-menu li a:hover{
+	color: #6289c7;
+}
+li.dropdown {
+	display: inline-block;
+}
+.dropdown:hover .isi-dropdown {
+	display: block;
+}
+.isi-dropdown a:hover {
+	color: #fff !important;
+}
+.isi-dropdown {
+	position: absolute;
+	display: none;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+	background-color: #f9f9f9;
+}
+.isi-dropdown a {
+	color: #3c3c3c !important;
+}
+.isi-dropdown a:hover {
+	color: #232323 !important;
+	background: #f3f3f3 !important;
+}
+
+/* .downarrow {
+    margin: auto;
+    box-sizing: border-box;
+    padding-left: 0px;
+} */
+.header {
+    width: 100%;
+    margin: auto;
+    background-image: url('img/bg_hero_9.jpg');
+    background-size: cover;
+}
+
+.container-header{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 300px;
+    padding-bottom: 300px;
+    color: white;
+}
+
+p.text {
+    font-size: 15px;
+    font-family: 'Trebuchet MS';
+}
+
+.content2 {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    border-bottom: 1px solid #c9c9c9;
+    margin-bottom: 50px;
+}
+.content2-box-isi {
+    padding-top: 20px;
+}
+
+.content-box-isi-2 {
+    margin: auto;
+    box-sizing: border-box;
+    padding-top: 5px;
+}
+.container-content2 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    padding-bottom: 50px;
+
+
+}
+.box-content2  {
+    width: 33%;
+    float: left;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.icon-box2 {
+    float: left;
+    box-sizing: border-box;
+    margin-right: -100px;
+}
+
+.content3{
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #c9c9c9;
+}
+
+.container-content3 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    /* padding-bottom: 50px; */
+    padding: 25px;
+}
+
+.box-content3 {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 50px;
+    
+}
+
+.box-content3 a:hover {
+    text-decoration: underline;
+}
+
+.box-content3-1 {
+    width: 25%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    padding-top: 10px;
+    
+}
+
+.content4 {
+    width: 100%;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.title-content4 {
+    margin-bottom: 50px;
+}
+.container-content4 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+}
+.box-content4 {
+    width: 23%;
+    float: left;
+    padding: 10px; 
+    box-sizing: border-box;
+    padding-top: 25px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    margin-right: 25px;
+    text-align: left;
+}
+.box-content4-last {
+    width: 23%;
+    float: left;
+    padding: 10px; 
+    box-sizing: border-box;
+    padding-top: 25px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+}
+
+.ico-content4 {
+    float: left;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+
+.price {
+    float: left;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 10px;
+
+}
+
+.content4-autor {
+    box-sizing: border-box;
+    float: right;
+    text-align: right;
+}
+
+.box-judul {
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.box-judul-last {
+    margin: auto;
+    padding-left: 10px;
+    padding-top: 5px;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+.body-1 {
+    width: 100%;
+    margin: auto;
+    background-image: url('img/bg_prl.png');
+    background-size: cover;
+}
+.container-body1{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    color: white;
+    overflow: auto;
+}
+.box-body1 {
+    width: 33%;
+    float: left;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: left;
+}
+.box-body-content {
+    padding-top: 20px;
+}
+.title-body1 {
+    margin-bottom: 50px;
+}
+
+.img-body1 {
+    float: left;
+    margin: auto;
+    padding: 10px;
+}
+.body-2 {
+    width: 100%;
+    margin: auto;
+    /* margin-top: 50px;
+    margin-bottom: 50px; */
+}
+
+.container-body2 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    overflow: auto;
+}
+
+.box-body2 {
+    width: 33%;
+    float: left;
+    padding: 10px; 
+    box-sizing: border-box;
+    padding-top: 50px;
+
+}
+
+.box-body2-1 {
+    width: 33%;
+    float: left;
+    padding: 10px; 
+    box-sizing: border-box;
+    padding-bottom: 50px;
+
+}
+
+.title-body2 {
+    position: absolute;
+    margin-top: -150px;
+    color: #fff;
+    margin-left: 130px;
+}
+
+.body-3 {
+    width: 100%;
+    margin: auto;
+    background-color: #f7f9f9;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.container-body3 {
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    overflow: auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.body-3-isi {
+    padding-top: 20px;
+}
+.box-body3-1 {
+    width: 40%;
+    float: left;
+    box-sizing: border-box;
+}
+.box-body3-2 {
+    width: 60%;
+    float: left;
+    padding-top: 35px;
+}
+
+.box-body3-3 {
+    margin: auto;
+    padding-top: 5px;
+}
+.img-body3 {
+    float: left;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.btn-subscribe {
+    background: #6289c7;
+    color: #fff;
+    border: 1px solid #6289c7;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer {
+    width: 100%;
+    margin: auto;
+    padding-top: 50px;
+    border-bottom: 1px solid rgb(201, 196, 196);
+    
+}
+
+.container-footer {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+.box-footer {
+    width: 25%;
+    margin: auto;
+    padding: 10px;
+    box-sizing: border-box;
+    float: left;
+    padding-bottom: 50px;
+    text-align: left;
+}
+.down-footer-utama {
+    width: 100%;
+    border-left: 3px solid #6289c7;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    margin-bottom: 20px;
+}
+.down-footer {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+}
+.down-footer2 {
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+    font-size: 14px;
+}
+.garis {
+    width: 50%;
+    padding: 10px;
+}
+
+.title-footer {
+    width: 100%;
+    margin: auto;
+    padding: 5px;
+    text-align: left;
+    font-size: 20px;
+    margin-left: -5px;
+}
+
+.copyright {
+    width: 100%;
+    margin: auto;
+    padding-top: 25px;
+    box-sizing: border-box;
+    padding-bottom: 25px;
+}
+
+.container-copyright {
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    overflow: auto;
+}
+
+.box-copyright {
+    width: 100%;
+    margin: auto;
+    font-size: 14px;
+}
+.sosial {
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+}
+.link-footer {
+    color: blue;
+    font-family: 'Trebuchet MS';
+    text-decoration: none;
+    color: #6289c7;
+}
